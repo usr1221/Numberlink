@@ -1247,7 +1247,7 @@ public class Generator extends ConnectionTypes {
      * Contains char tables determining which chars can be inserted by the Generator in a given situation
      */
     class tableHub {
-    	// Non-adjusted tables moved to resource folder as they are only templates
+    	// Non-adjusted tables have been removed as they are only templates
 
         // Dostosowanie częstości występowania
 

@@ -291,6 +291,7 @@ public class NumberlinkGUI implements Runnable {
      */
     private void showSolution(){
         try {
+            clearBoard();
             HashMap<Integer, Path> paths = controller.solveAndExtractPaths();
             for (Map.Entry<Integer, Path> entry : paths.entrySet()) {
                 int key = entry.getKey();

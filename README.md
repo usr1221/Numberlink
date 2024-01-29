@@ -31,7 +31,7 @@ When you start the game, you are greeted with a screen to select the board size 
 
 The gameplay interface allows you to interact with the game board:
 - Click on a cell with a number to begin drawing a path.
-- Use the keyboard arrows to extend the path from the selected number.
+- Use the WSAD keys to extend the path from the selected number.
 - Click on the same number cell to undo a path.
 - Use the 'Clear' button to remove all paths from the board.
 - Press the 'Solve Board' button to display the solved board.

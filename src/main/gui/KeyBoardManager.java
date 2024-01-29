@@ -28,7 +28,7 @@ public class KeyBoardManager {
         ActionMap actionMap = frame.getRootPane().getActionMap();
 
         // Key binding for UP key
-        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_UP, 0), "UP_KEY");
+        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_W, 0), "UP_KEY");
         actionMap.put("UP_KEY", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -40,7 +40,7 @@ public class KeyBoardManager {
         });
 
         // Key binding for DOWN key
-        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_DOWN, 0), "DOWN_KEY");
+        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_S, 0), "DOWN_KEY");
         actionMap.put("DOWN_KEY", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -54,7 +54,7 @@ public class KeyBoardManager {
         });
 
         // Key binding for LEFT key
-        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_LEFT, 0), "LEFT_KEY");
+        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_A, 0), "LEFT_KEY");
         actionMap.put("LEFT_KEY", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
@@ -67,7 +67,7 @@ public class KeyBoardManager {
         });
 
         // Key binding for RIGHT key
-        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_RIGHT, 0), "RIGHT_KEY");
+        inputMap.put(KeyStroke.getKeyStroke(KeyEvent.VK_D, 0), "RIGHT_KEY");
         actionMap.put("RIGHT_KEY", new AbstractAction() {
             @Override
             public void actionPerformed(ActionEvent actionEvent) {
